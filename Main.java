@@ -124,6 +124,9 @@ public class Main {
             }
 
         }
+        if ((num1==0)||(num2==0)){
+            throw new InputMismatchException("неправильный ввод римких чисел");
+        }
         return  String.valueOf(num1)+arifm+String.valueOf(num2);
 
     }
