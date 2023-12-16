@@ -13,7 +13,7 @@ public class Main {
         String arab="0123456789";
         String rim="IXV";
         while (true){
-            System.out.println("Введи выражение типа (arg1+arg2), ");
+            System.out.println(" Введи выражение типа (arg1+arg2), ");
             System.out.println("допустимы римские и арабские цифры ");
             System.out.println("и следующие операции (+-/*)");
 
